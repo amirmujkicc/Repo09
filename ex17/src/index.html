@@ -1,0 +1,49 @@
+<h2>CatPhotoApp</h2>
+
+<main>
+    <a href="#"><img src="https://bit.ly/3fUJAV1" alt="Gray cat on tree branch"></a>
+    <p>Kitty ipsum dolor sit amet, shed everywhere</p>
+    <ul>
+        <li>taking naps</li>
+        <li>hunting</li>
+        <li>scratching</li>
+    </ul>
+    <ol>
+        <li>too much attention</li>
+        <li>not enough attention</li>
+        <li>baths</li>
+    </ol>
+    <form action="/submit-cat-photo">
+        <input type="text" placeholder="cat photo URL" required>
+        <button type="submit">Submit</button>
+        <!--It is not possible to submit a form before the required fields are filled out.-->
+        <div>
+            <label for="inside">
+                <input type="radio" name="inside-outside" id="inside" checked>Inside
+            </label>
+            <label for="outside">
+                <input type="radio" name="inside-outside" id="outside">Outside
+            </label>
+        </div>
+        <div>
+            <label for="dog">
+                <input type="checkbox" name="favorite_pet" id="dog" value="Dog" checked>Dogs
+            </label>
+            <label for="cat">
+                <input type="checkbox" name="favorite_pet" id="cat" value="Cat">Cats
+            </label>
+            <label for="hamster">
+                <input type="checkbox" name="favorite_pet" id="hamster" value="Hamster">Hamsters
+            </label>
+            <label for="bird">
+                <input type="checkbox" name="favorite_pet" id="bird" value="Bird">Birds
+            </label>
+            <label for="fish">
+                <input type="checkbox" name="favorite_pet" id="fish" value="Fish">Fishes
+            </label>
+        </div>
+    </form>
+
+</main>
+
+<footer id="footer"></footer>
